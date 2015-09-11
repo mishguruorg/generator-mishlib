@@ -1,5 +1,5 @@
 {
-  "name": "generator-mishlib",
+  "name": "@mishguru/generator-mishlib",
   "version": "2.1.0",
   "description": "A Yeoman generator for mish guru modules",
   "keywords": [
