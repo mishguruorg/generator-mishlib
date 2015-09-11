@@ -1,0 +1,33 @@
+{
+  "name": "generator-mishlib",
+  "version": "2.1.0",
+  "description": "A Yeoman generator for mish guru modules",
+  "keywords": [
+    "yeoman-generator",
+    "node",
+    "mishguru"
+  ],
+  "homepage": "https://github.com/mishguruorg/generator-mishlib",
+  "bugs": "https://github.com/mishguruorg/generator-mishlib/issues",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mishguruorg/generator-mishlib.git"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --recursive specs && standard"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.1",
+    "mocha": "^1.18.2",
+    "standard": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  }
+}
