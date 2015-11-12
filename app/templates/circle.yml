@@ -1,3 +1,6 @@
 dependencies:
   pre:
     - bash circle/npmlogin.sh
+machine:
+  node:
+    version: 4.1.0
