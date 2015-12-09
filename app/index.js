@@ -83,6 +83,7 @@ MishlibGenerator.prototype.testFrameworks = function mocha () {
   this.mkdir('circle')
 
   this.copy('npmignore', '.npmignore')
+  this.copy('CONTRIBUTING.md', 'CONTRIBUTING.md')
   this.copy('circle.yml', 'circle.yml')
   this.copy('npmlogin.sh', 'circle/npmlogin.sh')
   this.copy('lib.js', 'lib/index.js')
