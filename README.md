@@ -14,7 +14,7 @@ $ npm install -g @mishguru/generator-mishlib
 Finally, initiate the generator:
 
 ```
-$ yo mishlib
+$ yo @mishguru/mishlib
 ```
 
 This generator will install the following files:
