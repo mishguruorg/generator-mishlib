@@ -7,6 +7,7 @@ A node.js module scaffolding generator for [Yeoman](http://yeoman.io).
 To install generator-mishlib from npm, run:
 
 ```
+$ npm install -g yo
 $ npm install -g @mishguru/generator-mishlib
 ```
 
