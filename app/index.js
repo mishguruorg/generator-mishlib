@@ -87,5 +87,6 @@ MishlibGenerator.prototype.testFrameworks = function mocha () {
   this.copy('circle.yml', 'circle.yml')
   this.copy('npmlogin.sh', 'circle/npmlogin.sh')
   this.copy('lib.js', 'lib/index.js')
+  this.copy('babelrc', '.babelrc')
   this.template('test.js', 'specs/unit/indexTests.js')
 }
